@@ -1,0 +1,10 @@
+.enabled{
+    border: 2px black;
+    width: 300px;
+    background-color: white;
+}
+.disabled{
+    border: 2px black;
+    width: 300px;
+    background-color: gray;
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+background-color: rgb(11, 30, 70);
+display: flex;
+position: fixed;
+top: 0%;
+left: 0%;
+right: 0%;
+
+}
+.container *{
+    /* esto se hace para que CADA elemento del container tenga 10px de margen a la izquiera*/
+    margin-left: 10px;
+    
+}
+.container *:hover{
+    position: relative; /*da el efecto de que estas seleccionando el elemento*/
+    top: 20px;
+}
+.A{
+background-color: skyblue;
+height: 100px;
+width: 100px;
+}
+.B{
+background-color: rgb(118, 181, 206);
+height: 100px;
+width: 100px;
+/*position: relative; /* esto permite que podamos mover el elemento a mi antojo
+top: 10px;
+left: 10px;*/
+}
+.C{
+background-color: rgb(93, 148, 170);
+height: 100px;
+width: 100px;
+}
+.D{
+background-color: rgb(74, 124, 143);
+height: 100px;
+width: 100px;
+}
+.content{
+position: fixed;
+right: 0%;
+top: 100px;
+bottom: 0%;
+left: 300px;
+overflow: scroll; /*para scrollear una pagina*/
+}
+.sidebar{
+    position: fixed;
+    top: 100px;
+    left: 0%;
+    bottom: 0%;
+    width: 300px;
+    background-color: rgb(175, 222, 242);
+}
+.sidebar ul li{
+    color: rgb(102, 10, 102);
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.sidebar ul li:hover{
+    background-color: rgb(230, 252, 255);
+    color: black;
+}

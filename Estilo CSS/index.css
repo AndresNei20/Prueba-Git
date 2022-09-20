@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(183, 210, 232);
+}
+.logo{
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+}
+#Profile{
+    background-color: rgb(243, 223, 95);
+    width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+}
+#Profile h3
+
+
+#Profile img{
+    display: flex;
+    margin: 20px auto;
+}
+.pfp1{
+    width: 250px;
+    border-radius: 150px;
+}
